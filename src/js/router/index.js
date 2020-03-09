@@ -9,7 +9,7 @@ export default new Router({
     mode: 'history',
     routes: [
         {
-            path: '/',
+            path: '/gk6x_gui/',
             name: 'index',
             component: Index,
         },
