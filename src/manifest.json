@@ -1,0 +1,26 @@
+{
+  "name" : "GK6X GUI",
+  "short_name" : "GK6X GUI",
+  "description" : "This tool allows you to set keys for GK6X keyboards (GK64, GK84, GK61, etc) with pixeltris/GK6X.",
+  "start_url" : "?utm_source=homescreen",
+  "display" : "standalone",
+  "orientation" : "any",
+  "lang" : "English",
+  "icons": [
+    {
+      "src": "./assets/img/icons/icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

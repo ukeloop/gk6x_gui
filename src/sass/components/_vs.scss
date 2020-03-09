@@ -1,0 +1,21 @@
+.vs {
+  &--open {
+    .vs__dropdown-toggle {
+      @apply outline-indigo-300;
+    }
+  }
+
+  &__search::placeholder,
+  &__dropdown-toggle,
+  &__dropdown-menu {
+    background: #FFFFFF;
+  }
+
+  &__dropdown-toggle {
+    @apply border border-gray-400;
+  }
+
+  &__open-indicator {
+    fill: #4a5568;
+  }
+}

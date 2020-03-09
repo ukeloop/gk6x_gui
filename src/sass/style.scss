@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "~vue-select/src/scss/vue-select.scss";
+
+$u: 4rem;
+
+@import "components/vs";
+@import "components/code";
+@import "components/btn";
+@import "components/github-corner";
+@import "components/keyboard";
+@import "components/key";
+
+@import "animations/fadeIn";
+@import "animations/fadeInUp";
+
+@import "tailwindcss/utilities";

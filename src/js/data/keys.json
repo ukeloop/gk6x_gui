@@ -1,0 +1,1044 @@
+﻿[
+    {
+        "name": "Esc",
+        "show": "Esc",
+        "LocationCode": 0,
+        "LogicCode": 47,
+        "DriverValue": "0x02002900"
+    },
+    {
+        "name": "Disabled",
+        "show": "Disabled",
+        "LocationCode": -1,
+        "LogicCode": -1,
+        "DriverValue": "0x02000000"
+    },
+    {
+        "name": "F1",
+        "show": "F1",
+        "LocationCode": 2,
+        "LogicCode": 63,
+        "DriverValue": "0x02003A00"
+    },
+    {
+        "name": "F2",
+        "show": "F2",
+        "LocationCode": 3,
+        "LogicCode": 64,
+        "DriverValue": "0x02003B00"
+    },
+    {
+        "name": "F3",
+        "show": "F3",
+        "LocationCode": 4,
+        "LogicCode": 65,
+        "DriverValue": "0x02003C00"
+    },
+    {
+        "name": "F4",
+        "show": "F4",
+        "LocationCode": 5,
+        "LogicCode": 66,
+        "DriverValue": "0x02003D00"
+    },
+    {
+        "name": "F5",
+        "show": "F5",
+        "LocationCode": 7,
+        "LogicCode": 67,
+        "DriverValue": "0x02003E00"
+    },
+    {
+        "name": "F6",
+        "show": "F6",
+        "LocationCode": 8,
+        "LogicCode": 68,
+        "DriverValue": "0x02003F00"
+    },
+    {
+        "name": "F7",
+        "show": "F7",
+        "LocationCode": 9,
+        "LogicCode": 69,
+        "DriverValue": "0x02004000"
+    },
+    {
+        "name": "F8",
+        "show": "F8",
+        "LocationCode": 10,
+        "LogicCode": 70,
+        "DriverValue": "0x02004100"
+    },
+    {
+        "name": "F9",
+        "show": "F9",
+        "LocationCode": 11,
+        "LogicCode": 71,
+        "DriverValue": "0x02004200"
+    },
+    {
+        "name": "F10",
+        "show": "F10",
+        "LocationCode": 12,
+        "LogicCode": 72,
+        "DriverValue": "0x02004300"
+    },
+    {
+        "name": "F11",
+        "show": "F11",
+        "LocationCode": 13,
+        "LogicCode": 73,
+        "DriverValue": "0x02004400"
+    },
+    {
+        "name": "F12",
+        "show": "F12",
+        "LocationCode": 14,
+        "LogicCode": 74,
+        "DriverValue": "0x02004500"
+    },
+    {
+        "name": "PrintScreen",
+        "show": "PrintScreen",
+        "LocationCode": 15,
+        "LogicCode": 75,
+        "DriverValue": "0x02004600"
+    },
+    {
+        "name": "ScrollLock",
+        "show": "ScrollLock",
+        "LocationCode": 16,
+        "LogicCode": 76,
+        "DriverValue": "0x02004700"
+    },
+    {
+        "name": "Pause",
+        "show": "Pause",
+        "LocationCode": 17,
+        "LogicCode": 77,
+        "DriverValue": "0x02004800"
+    },
+    {
+        "name": "BackTick",
+        "show": "BackTick",
+        "LocationCode": 22,
+        "LogicCode": 58,
+        "DriverValue": "0x02003500"
+    },
+    {
+        "name": "D1",
+        "show": "D1",
+        "LocationCode": 23,
+        "LogicCode": 36,
+        "DriverValue": "0x02001E00"
+    },
+    {
+        "name": "D2",
+        "show": "D2",
+        "LocationCode": 24,
+        "LogicCode": 37,
+        "DriverValue": "0x02001F00"
+    },
+    {
+        "name": "D3",
+        "show": "D3",
+        "LocationCode": 25,
+        "LogicCode": 38,
+        "DriverValue": "0x02002000"
+    },
+    {
+        "name": "D4",
+        "show": "D4",
+        "LocationCode": 26,
+        "LogicCode": 39,
+        "DriverValue": "0x02002100"
+    },
+    {
+        "name": "D5",
+        "show": "D5",
+        "LocationCode": 27,
+        "LogicCode": 40,
+        "DriverValue": "0x02002200"
+    },
+    {
+        "name": "D6",
+        "show": "D6",
+        "LocationCode": 28,
+        "LogicCode": 41,
+        "DriverValue": "0x02002300"
+    },
+    {
+        "name": "D7",
+        "show": "D7",
+        "LocationCode": 29,
+        "LogicCode": 42,
+        "DriverValue": "0x02002400"
+    },
+    {
+        "name": "D8",
+        "show": "D8",
+        "LocationCode": 30,
+        "LogicCode": 43,
+        "DriverValue": "0x02002500"
+    },
+    {
+        "name": "D9",
+        "show": "D9",
+        "LocationCode": 31,
+        "LogicCode": 44,
+        "DriverValue": "0x02002600"
+    },
+    {
+        "name": "D0",
+        "show": "D0",
+        "LocationCode": 32,
+        "LogicCode": 45,
+        "DriverValue": "0x02002700"
+    },
+    {
+        "name": "Subtract",
+        "show": "Subtract",
+        "LocationCode": 33,
+        "LogicCode": 51,
+        "DriverValue": "0x02002D00"
+    },
+    {
+        "name": "Add",
+        "show": "Add",
+        "LocationCode": 34,
+        "LogicCode": 52,
+        "DriverValue": "0x02002E00"
+    },
+    {
+        "name": "Backspace",
+        "show": "Backspace",
+        "LocationCode": 36,
+        "LogicCode": 48,
+        "DriverValue": "0x02002A00"
+    },
+    {
+        "name": "Insert",
+        "show": "Insert",
+        "LocationCode": 37,
+        "LogicCode": 78,
+        "DriverValue": "0x02004900"
+    },
+    {
+        "name": "Home",
+        "show": "Home",
+        "LocationCode": 38,
+        "LogicCode": 79,
+        "DriverValue": "0x02004A00"
+    },
+    {
+        "name": "PageUp",
+        "show": "PageUp",
+        "LocationCode": 39,
+        "LogicCode": 80,
+        "DriverValue": "0x02004B00"
+    },
+    {
+        "name": "Tab",
+        "show": "Tab",
+        "LocationCode": 44,
+        "LogicCode": 49,
+        "DriverValue": "0x02002B00"
+    },
+    {
+        "name": "Q",
+        "show": "Q",
+        "LocationCode": 45,
+        "LogicCode": 26,
+        "DriverValue": "0x02001400"
+    },
+    {
+        "name": "W",
+        "show": "W",
+        "LocationCode": 46,
+        "LogicCode": 32,
+        "DriverValue": "0x02001A00"
+    },
+    {
+        "name": "E",
+        "show": "E",
+        "LocationCode": 47,
+        "LogicCode": 14,
+        "DriverValue": "0x02000800"
+    },
+    {
+        "name": "R",
+        "show": "R",
+        "LocationCode": 48,
+        "LogicCode": 27,
+        "DriverValue": "0x02001500"
+    },
+    {
+        "name": "T",
+        "show": "T",
+        "LocationCode": 49,
+        "LogicCode": 29,
+        "DriverValue": "0x02001700"
+    },
+    {
+        "name": "Y",
+        "show": "Y",
+        "LocationCode": 50,
+        "LogicCode": 34,
+        "DriverValue": "0x02001C00"
+    },
+    {
+        "name": "U",
+        "show": "U",
+        "LocationCode": 51,
+        "LogicCode": 30,
+        "DriverValue": "0x02001800"
+    },
+    {
+        "name": "I",
+        "show": "I",
+        "LocationCode": 52,
+        "LogicCode": 18,
+        "DriverValue": "0x02000C00"
+    },
+    {
+        "name": "O",
+        "show": "O",
+        "LocationCode": 53,
+        "LogicCode": 24,
+        "DriverValue": "0x02001200"
+    },
+    {
+        "name": "P",
+        "show": "P",
+        "LocationCode": 54,
+        "LogicCode": 25,
+        "DriverValue": "0x02001300"
+    },
+    {
+        "name": "OpenSquareBrace",
+        "show": "OpenSquareBrace",
+        "LocationCode": 55,
+        "LogicCode": 53,
+        "DriverValue": "0x02002F00"
+    },
+    {
+        "name": "CloseSquareBrace",
+        "show": "CloseSquareBrace",
+        "LocationCode": 56,
+        "LogicCode": 54,
+        "DriverValue": "0x02003000"
+    },
+    {
+        "name": "Backslash",
+        "show": "Backslash",
+        "LocationCode": 58,
+        "LogicCode": 55,
+        "DriverValue": "0x02003100"
+    },
+    {
+        "name": "Delete",
+        "show": "Delete",
+        "LocationCode": 59,
+        "LogicCode": 81,
+        "DriverValue": "0x02004C00"
+    },
+    {
+        "name": "End",
+        "show": "End",
+        "LocationCode": 60,
+        "LogicCode": 82,
+        "DriverValue": "0x02004D00"
+    },
+    {
+        "name": "PageDown",
+        "show": "PageDown",
+        "LocationCode": 61,
+        "LogicCode": 83,
+        "DriverValue": "0x02004E00"
+    },
+    {
+        "name": "CapsLock",
+        "show": "CapsLock",
+        "LocationCode": 66,
+        "LogicCode": 62,
+        "DriverValue": "0x02003900"
+    },
+    {
+        "name": "A",
+        "show": "A",
+        "LocationCode": 67,
+        "LogicCode": 10,
+        "DriverValue": "0x02000400"
+    },
+    {
+        "name": "S",
+        "show": "S",
+        "LocationCode": 68,
+        "LogicCode": 28,
+        "DriverValue": "0x02001600"
+    },
+    {
+        "name": "D",
+        "show": "D",
+        "LocationCode": 69,
+        "LogicCode": 13,
+        "DriverValue": "0x02000700"
+    },
+    {
+        "name": "F",
+        "show": "F",
+        "LocationCode": 70,
+        "LogicCode": 15,
+        "DriverValue": "0x02000900"
+    },
+    {
+        "name": "G",
+        "show": "G",
+        "LocationCode": 71,
+        "LogicCode": 16,
+        "DriverValue": "0x02000A00"
+    },
+    {
+        "name": "H",
+        "show": "H",
+        "LocationCode": 72,
+        "LogicCode": 17,
+        "DriverValue": "0x02000B00"
+    },
+    {
+        "name": "J",
+        "show": "J",
+        "LocationCode": 73,
+        "LogicCode": 19,
+        "DriverValue": "0x02000D00"
+    },
+    {
+        "name": "K",
+        "show": "K",
+        "LocationCode": 74,
+        "LogicCode": 20,
+        "DriverValue": "0x02000E00"
+    },
+    {
+        "name": "L",
+        "show": "L",
+        "LocationCode": 75,
+        "LogicCode": 21,
+        "DriverValue": "0x02000F00"
+    },
+    {
+        "name": "Semicolon",
+        "show": "Semicolon",
+        "LocationCode": 76,
+        "LogicCode": 56,
+        "DriverValue": "0x02003300"
+    },
+    {
+        "name": "Quotes",
+        "show": "Quotes",
+        "LocationCode": 77,
+        "LogicCode": 57,
+        "DriverValue": "0x02003400"
+    },
+    {
+        "name": "Enter",
+        "show": "Enter",
+        "LocationCode": 79,
+        "LogicCode": 46,
+        "DriverValue": "0x02002800"
+    },
+    {
+        "name": "LShift",
+        "show": "LShift",
+        "LocationCode": 88,
+        "LogicCode": 3,
+        "DriverValue": "0x02000002"
+    },
+    {
+        "name": "AltBackslash",
+        "show": "AltBackslash",
+        "LocationCode": 89,
+        "LogicCode": 111,
+        "DriverValue": "0x02006400"
+    },
+    {
+        "name": "Z",
+        "show": "Z",
+        "LogicCode": 35,
+        "LocationCode": 90,
+        "DriverValue": "0x02001D00"
+    },
+    {
+        "name": "X",
+        "show": "X",
+        "LocationCode": 91,
+        "LogicCode": 33,
+        "DriverValue": "0x02001B00"
+    },
+    {
+        "name": "C",
+        "show": "C",
+        "LocationCode": 92,
+        "LogicCode": 12,
+        "DriverValue": "0x02000600"
+    },
+    {
+        "name": "V",
+        "show": "V",
+        "LocationCode": 93,
+        "LogicCode": 31,
+        "DriverValue": "0x02001900"
+    },
+    {
+        "name": "B",
+        "show": "B",
+        "LocationCode": 94,
+        "LogicCode": 11,
+        "DriverValue": "0x02000500"
+    },
+    {
+        "name": "N",
+        "show": "N",
+        "LocationCode": 95,
+        "LogicCode": 23,
+        "DriverValue": "0x02001100"
+    },
+    {
+        "name": "M",
+        "show": "M",
+        "LocationCode": 96,
+        "LogicCode": 22,
+        "DriverValue": "0x02001000"
+    },
+    {
+        "name": "Comma",
+        "show": "Comma",
+        "LocationCode": 97,
+        "LogicCode": 59,
+        "DriverValue": "0x02003600"
+    },
+    {
+        "name": "Period",
+        "show": "Period",
+        "LocationCode": 98,
+        "LogicCode": 60,
+        "DriverValue": "0x02003700"
+    },
+    {
+        "name": "Slash",
+        "show": "Slash",
+        "LocationCode": 99,
+        "LogicCode": 61,
+        "DriverValue": "0x02003800"
+    },
+    {
+        "name": "RShift",
+        "show": "RShift",
+        "LocationCode": 102,
+        "LogicCode": 7,
+        "DriverValue": "0x02000020"
+    },
+    {
+        "name": "Up",
+        "show": "Up",
+        "LocationCode": 104,
+        "LogicCode": 87,
+        "DriverValue": "0x02005200"
+    },
+    {
+        "name": "LCtrl",
+        "show": "LCtrl",
+        "LocationCode": 110,
+        "LogicCode": 2,
+        "DriverValue": "0x02000001"
+    },
+    {
+        "name": "LWin",
+        "show": "LWin",
+        "LocationCode": 111,
+        "LogicCode": 5,
+        "DriverValue": "0x02000008"
+    },
+    {
+        "name": "LAlt",
+        "show": "LAlt",
+        "LocationCode": 112,
+        "LogicCode": 4,
+        "DriverValue": "0x02000004"
+    },
+    {
+        "name": "Space",
+        "show": "Space",
+        "LocationCode": 116,
+        "LogicCode": 50,
+        "DriverValue": "0x02002C00"
+    },
+    {
+        "name": "RAlt",
+        "show": "RAlt",
+        "LocationCode": 120,
+        "LogicCode": 8,
+        "DriverValue": "0x02000040"
+    },
+    {
+        "name": "RWin",
+        "show": "RWin",
+        "LocationCode": 121,
+        "LogicCode": 9,
+        "DriverValue": "0x02000080"
+    },
+    {
+        "name": "Menu",
+        "show": "Menu",
+        "LocationCode": 122,
+        "LogicCode": 1,
+        "DriverValue": "0x02006500"
+    },
+    {
+        "name": "RCtrl",
+        "show": "RCtrl",
+        "LocationCode": 124,
+        "LogicCode": 6,
+        "DriverValue": "0x02000010"
+    },
+    {
+        "name": "Left",
+        "show": "Left",
+        "LocationCode": 125,
+        "LogicCode": 85,
+        "DriverValue": "0x02005000"
+    },
+    {
+        "name": "Down",
+        "show": "Down",
+        "LocationCode": 126,
+        "LogicCode": 86,
+        "DriverValue": "0x02005100"
+    },
+    {
+        "name": "Right",
+        "show": "Right",
+        "LocationCode": 127,
+        "LogicCode": 84,
+        "DriverValue": "0x02004F00"
+    },
+    {
+        "name": "NumLock",
+        "show": "NumLock",
+        "LocationCode": 40,
+        "LogicCode": 88,
+        "DriverValue": "0x02005300"
+    },
+    {
+        "name": "NumPadSlash",
+        "show": "NumPadSlash",
+        "LocationCode": 41,
+        "LogicCode": 89,
+        "DriverValue": "0x02005400"
+    },
+    {
+        "name": "NumPadAsterisk",
+        "show": "NumPadAsterisk",
+        "LocationCode": 42,
+        "LogicCode": 90,
+        "DriverValue": "0x02005500"
+    },
+    {
+        "name": "NumPadSubtract",
+        "show": "NumPadSubtract",
+        "LocationCode": 43,
+        "LogicCode": 91,
+        "DriverValue": "0x02005600"
+    },
+    {
+        "name": "NumPad7",
+        "show": "NumPad7",
+        "LocationCode": 62,
+        "LogicCode": 100,
+        "DriverValue": "0x02005F00"
+    },
+    {
+        "name": "NumPad8",
+        "show": "NumPad8",
+        "LocationCode": 63,
+        "LogicCode": 101,
+        "DriverValue": "0x02006000"
+    },
+    {
+        "name": "NumPad9",
+        "show": "NumPad9",
+        "LocationCode": 64,
+        "LogicCode": 102,
+        "DriverValue": "0x02006100"
+    },
+    {
+        "name": "NumPadAdd",
+        "show": "NumPadAdd",
+        "LocationCode": 65,
+        "LogicCode": 92,
+        "DriverValue": "0x02005700"
+    },
+    {
+        "name": "NumPad4",
+        "show": "NumPad4",
+        "LocationCode": 84,
+        "LogicCode": 97,
+        "DriverValue": "0x02005C00"
+    },
+    {
+        "name": "NumPad5",
+        "show": "NumPad5",
+        "LocationCode": 85,
+        "LogicCode": 98,
+        "DriverValue": "0x02005D00"
+    },
+    {
+        "name": "NumPad6",
+        "show": "NumPad6",
+        "LocationCode": 86,
+        "LogicCode": 99,
+        "DriverValue": "0x02005E00"
+    },
+    {
+        "name": "NumPad1",
+        "show": "NumPad1",
+        "LocationCode": 106,
+        "LogicCode": 94,
+        "DriverValue": "0x02005900"
+    },
+    {
+        "name": "NumPad2",
+        "show": "NumPad2",
+        "LocationCode": 107,
+        "LogicCode": 95,
+        "DriverValue": "0x02005A00"
+    },
+    {
+        "name": "NumPad3",
+        "show": "NumPad3",
+        "LocationCode": 108,
+        "LogicCode": 96,
+        "DriverValue": "0x02005B00"
+    },
+    {
+        "name": "NumPad0",
+        "show": "NumPad0",
+        "LocationCode": 128,
+        "LogicCode": 103,
+        "DriverValue": "0x02006200"
+    },
+    {
+        "name": "NumPadPeriod",
+        "show": "NumPadPeriod",
+        "LocationCode": 130,
+        "LogicCode": 104,
+        "DriverValue": "0x02006300"
+    },
+    {
+        "name": "NumPadEnter",
+        "show": "NumPadEnter",
+        "LocationCode": 109,
+        "LogicCode": 93,
+        "DriverValue": "0x02005800"
+    },
+    {
+        "name": "OpenMediaPlayer",
+        "show": "OpenMediaPlayer",
+        "DriverValue": "0x03000183"
+    },
+    {
+        "name": "MediaPlayPause",
+        "show": "MediaPlayPause",
+        "DriverValue": "0x030000CD"
+    },
+    {
+        "name": "MediaStop",
+        "show": "MediaStop",
+        "DriverValue": "0x030000B7"
+    },
+    {
+        "name": "MediaPrevious",
+        "show": "MediaPrevious",
+        "DriverValue": "0x030000B6"
+    },
+    {
+        "name": "MediaNext",
+        "show": "MediaNext",
+        "DriverValue": "0x030000B5"
+    },
+    {
+        "name": "VolumeUp",
+        "show": "VolumeUp",
+        "DriverValue": "0x030000E9"
+    },
+    {
+        "name": "VolumeDown",
+        "show": "VolumeDown",
+        "DriverValue": "0x030000EA"
+    },
+    {
+        "name": "VolumeMute",
+        "show": "VolumeMute",
+        "DriverValue": "0x030000E2"
+    },
+    {
+        "name": "BrowserSearch",
+        "show": "BrowserSearch",
+        "DriverValue": "0x03000221"
+    },
+    {
+        "name": "BrowserStop",
+        "show": "BrowserStop",
+        "DriverValue": "0x03000226"
+    },
+    {
+        "name": "BrowserBack",
+        "show": "BrowserBack",
+        "DriverValue": "0x03000224"
+    },
+    {
+        "name": "BrowserForward",
+        "show": "BrowserForward",
+        "DriverValue": "0x03000225"
+    },
+    {
+        "name": "BrowserRefresh",
+        "show": "BrowserRefresh",
+        "DriverValue": "0x03000227"
+    },
+    {
+        "name": "BrowserFavorites",
+        "show": "BrowserFavorites",
+        "DriverValue": "0x0300022A"
+    },
+    {
+        "name": "BrowserHome",
+        "show": "BrowserHome",
+        "DriverValue": "0x03000223"
+    },
+    {
+        "name": "OpenEmail",
+        "show": "OpenEmail",
+        "DriverValue": "0x0300018A"
+    },
+    {
+        "name": "OpenMyComputer",
+        "show": "OpenMyComputer",
+        "DriverValue": "0x03000194"
+    },
+    {
+        "name": "OpenCalculator",
+        "show": "OpenCalculator",
+        "DriverValue": "0x03000192"
+    },
+    {
+        "name": "Copy",
+        "show": "Copy",
+        "DriverValue": "0x02000601"
+    },
+    {
+        "name": "Paste",
+        "show": "Paste",
+        "DriverValue": "0x02001901"
+    },
+    {
+        "name": "Screenshot",
+        "show": "Screenshot",
+        "DriverValue": "0x02004600"
+    },
+    {
+        "name": "MouseLClick",
+        "show": "MouseLClick",
+        "DriverValue": "0x01010001"
+    },
+    {
+        "name": "MouseRClick",
+        "show": "MouseRClick",
+        "DriverValue": "0x01010002"
+    },
+    {
+        "name": "MouseMClick",
+        "show": "MouseMClick",
+        "DriverValue": "0x01010004"
+    },
+    {
+        "name": "MouseBack",
+        "show": "MouseBack",
+        "DriverValue": "0x01010008"
+    },
+    {
+        "name": "MouseAdvance",
+        "show": "MouseAdvance",
+        "DriverValue": "0x01010010"
+    },
+    {
+        "name": "TempSwitchLayerBase",
+        "show": "TempSwitchLayerBase",
+        "DriverValue": "0x0a070001"
+    },
+    {
+        "name": "TempSwitchLayer1",
+        "show": "TempSwitchLayer1",
+        "DriverValue": "0x0a070002"
+    },
+    {
+        "name": "TempSwitchLayer2",
+        "show": "TempSwitchLayer2",
+        "DriverValue": "0x0a070003"
+    },
+    {
+        "name": "TempSwitchLayer3",
+        "show": "TempSwitchLayer3",
+        "DriverValue": "0x0a070003"
+    },
+    {
+        "name": "TempSwitchLayerDriver",
+        "show": "TempSwitchLayerDriver",
+        "DriverValue": "0x0a070005"
+    },
+    {
+        "name": "Power",
+        "show": "Power",
+        "DriverValue": "0x02006600"
+    },
+    {
+        "name": "Clear",
+        "show": "Clear",
+        "DriverValue": "0x02006700"
+    },
+    {
+        "name": "F13",
+        "show": "F13",
+        "DriverValue": "0x02006800"
+    },
+    {
+        "name": "F14",
+        "show": "F14",
+        "DriverValue": "0x02006900"
+    },
+    {
+        "name": "F15",
+        "show": "F15",
+        "DriverValue": "0x02006A00"
+    },
+    {
+        "name": "F16",
+        "show": "F16",
+        "DriverValue": "0x02006B00"
+    },
+    {
+        "name": "F17",
+        "show": "F17",
+        "DriverValue": "0x02006C00"
+    },
+    {
+        "name": "F18",
+        "show": "F18",
+        "DriverValue": "0x02006D00"
+    },
+    {
+        "name": "F19",
+        "show": "F19",
+        "DriverValue": "0x02006E00"
+    },
+    {
+        "name": "F20",
+        "show": "F20",
+        "DriverValue": "0x02006F00"
+    },
+    {
+        "name": "F21",
+        "show": "F21",
+        "DriverValue": "0x02007000"
+    },
+    {
+        "name": "F22",
+        "show": "F22",
+        "DriverValue": "0x02007100"
+    },
+    {
+        "name": "F23",
+        "show": "F23",
+        "DriverValue": "0x02007200"
+    },
+    {
+        "name": "F24",
+        "show": "F24",
+        "DriverValue": "0x02007300"
+    },
+    {
+        "name": "NumPadComma",
+        "show": "NumPadComma",
+        "DriverValue": "0x02008500"
+    },
+    {
+        "name": "IntlRo",
+        "show": "IntlRo",
+        "DriverValue": "0x02008700"
+    },
+    {
+        "name": "KanaMode",
+        "show": "KanaMode",
+        "DriverValue": "0x02008800"
+    },
+    {
+        "name": "IntlYen",
+        "show": "IntlYen",
+        "DriverValue": "0x02008900"
+    },
+    {
+        "name": "Convert",
+        "show": "Convert",
+        "DriverValue": "0x02008A00"
+    },
+    {
+        "name": "NonConvert",
+        "show": "NonConvert",
+        "DriverValue": "0x02008B00"
+    },
+    {
+        "name": "Lang3",
+        "show": "Lang3",
+        "DriverValue": "0x02009200"
+    },
+    {
+        "name": "Lang4",
+        "show": "Lang4",
+        "DriverValue": "0x02009300"
+    },
+    {
+        "name": "ToggleLockWindowsKey",
+        "show": "ToggleLockWindowsKey",
+        "DriverValue": "0x0A020002"
+    },
+    {
+        "name": "ToggleBluetooth",
+        "show": "ToggleBluetooth",
+        "DriverValue": "0x0A020007"
+    },
+    {
+        "name": "ToggleBluetoothNoLED",
+        "show": "ToggleBluetoothNoLED",
+        "DriverValue": "0x0A020008"
+    },
+    {
+        "name": "DriverLayerButton",
+        "show": "DriverLayerButton",
+        "DriverValue": "0x0A060001"
+    },
+    {
+        "name": "Layer1Button",
+        "show": "Layer1Button",
+        "DriverValue": "0x0A060002"
+    },
+    {
+        "name": "Layer2Button",
+        "show": "Layer2Button",
+        "DriverValue": "0x0A060003"
+    },
+    {
+        "name": "Layer3Button",
+        "show": "Layer3Button",
+        "DriverValue": "0x0A060004"
+    }
+]

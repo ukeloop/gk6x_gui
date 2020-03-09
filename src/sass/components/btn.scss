@@ -1,0 +1,23 @@
+.btn {
+  @apply inline-block bg-indigo-600 text-white font-semibold py-2 px-4 rounded;
+
+  &:hover {
+    @apply bg-indigo-500;
+  }
+
+  &:active {
+    @apply bg-indigo-700;
+  }
+
+  &--secondary {
+    @apply bg-gray-900;
+
+    &:hover {
+      @apply bg-gray-800;
+    }
+
+    &:active {
+      @apply bg-black;
+    }
+  }
+}

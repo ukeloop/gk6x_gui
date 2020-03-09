@@ -1,0 +1,78 @@
+{
+  "name": "gk6x_gui",
+  "version": "1.0.0",
+  "description": "This tool allows you to set keys for GK6X keyboards (GK64, GK84, GK61, etc) with pixeltris/GK6X.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "ukeloop",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.0.0",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "babel-loader": "^8.0.2",
+    "copy-webpack-plugin": "^4.6.0",
+    "core-js": "^3.0.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-webpack-plugin": "^2.3.0",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "terser-webpack-plugin": "^2.3.5",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-pwa-manifest": "^4.2.0",
+    "workbox-webpack-plugin": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "file-saver": "^2.0.2",
+    "node-gyp": "^5.0.7",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.11",
+    "vue-analytics": "^5.20.1",
+    "vue-clipboard2": "^0.3.1",
+    "vue-js-modal": "^1.3.31",
+    "vue-notification": "^1.3.20",
+    "vue-router": "^3.1.3",
+    "vue-select": "^3.4.0",
+    "workbox-precaching": "^5.0.0",
+    "workbox-routing": "^5.0.0",
+    "workbox-strategies": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "ie >= 11"
+  ]
+}
