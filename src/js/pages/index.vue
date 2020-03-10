@@ -54,7 +54,7 @@
                             </p>
                             <p class="mt-2 text-sm whitespace-no-wrap md:mt-0 md:ml-4">
                                 <a class="font-medium text-blue-700 hover:underline hover:text-blue-500 transition ease-in-out duration-150"
-                                   href="https://github.com/qmk/qmk_firmware" target="_blank">
+                                   href="https://github.com/qmk/qmk_firmware" target="_blank" rel="noopener">
                                     Learn more →
                                 </a>
                             </p>
