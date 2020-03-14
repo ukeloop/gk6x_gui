@@ -102,7 +102,7 @@ module.exports = [
                     'og:title': 'GK6X GUI',
                     'og:type': 'website',
                     'og:url': publicPath,
-                    'og:image': path.resolve(publicPath, 'images/ogp.png'),
+                    'og:image': path.resolve(publicPath, 'assets/images/ogp.png'),
                     'og:site_name': 'GK6X GUI',
                     'og:description': 'Configure keys on GK6X keyboards (GK64, GK84, GK61, etc) - GK6X GUI',
                     'og:locale': 'en_US',
