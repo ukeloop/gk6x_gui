@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h2 class="text-lg font-medium text-gray-900">Usage</h2>
+                            <h2 class="text-lg font-medium text-gray-900" id="usage">Usage</h2>
                             <ul class="list-decimal list-inside text-gray-700 mt-1 mb-2">
                                 <li>
                                     Change the key configuration.
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h2 class="text-lg font-medium text-gray-900">Reset keyconfig</h2>
+                            <h2 class="text-lg font-medium text-gray-900" id="reset_keyconfig">Reset keyconfig</h2>
                             <p class="mt-1 max-w-xl text-base text-gray-700 lg:mt-2">
                                 Use the <code class="code bg-yellow-300 text-yellow-800">unmap</code> command to reset
                                 your
@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="container mx-auto mt-16 px-2">
-                    <div class="mt-4 border-b border-t border-gray-400 border rounded-lg overflow-hidden">
+                    <div class="mt-4 border-b border-t border-gray-400 border rounded-lg overflow-hidden" id="keyconfig">
                         <div class="px-4 py-2 border-b border-gray-400 flex justify-between items-center bg-white sm:py-4 sm:px-6 sm:items-baseline">
                             <h2 class="font-regular text-base md:text-lg leading-snug truncate">
                                 Keyconfig
