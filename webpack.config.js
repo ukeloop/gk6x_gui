@@ -44,21 +44,26 @@ module.exports = [
                 },
                 {
                     test: /\.scss$/,
-                    use: [{
-                        loader: MiniCssExtractPlugin.loader,
-                    }, {
-                        loader: 'css-loader',
-                    }, {
-                        loader: 'postcss-loader',
-                        options: {
-                            ident: 'postcss',
-                            plugins: [
-                                require('tailwindcss'),
-                            ],
+                    use: [
+                        {
+                            loader: MiniCssExtractPlugin.loader,
                         },
-                    }, {
-                        loader: 'sass-loader',
-                    }],
+                        {
+                            loader: 'css-loader',
+                        },
+                        {
+                            loader: 'postcss-loader',
+                            options: {
+                                ident: 'postcss',
+                                plugins: [
+                                    require('tailwindcss'),
+                                ],
+                            },
+                        },
+                        {
+                            loader: 'sass-loader',
+                        }
+                    ],
                 },
                 {
                     test: /\.json$/,
