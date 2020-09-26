@@ -90,10 +90,10 @@
 			}
 		}, {
 			"Index": 7,
-			"MenuPID": 7,
-			"MenuID": 3,
-			"MenuName": "Layer2",
-			"DriverValue": "0x0a070003",
+			"MenuPID": "",
+			"MenuID": "",
+			"MenuName": "板载3层",
+			"DriverValue": "0x0a070004",
 			"KeyLE": {
 				"GUID": "",
 				"Name": ""
