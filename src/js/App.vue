@@ -2,7 +2,7 @@
     <div>
         <main>
             <github-corner></github-corner>
-            <div id="app">
+            <div>
                 <router-view/>
             </div>
         </main>
@@ -10,12 +10,12 @@
 </template>
 
 <script>
-    import GithubCorner from './components/GithubCorner';
+import GithubCorner from './components/GithubCorner';
 
-    export default {
-        components: {
-            GithubCorner,
-        },
-        name: 'App'
-    }
+export default {
+    components: {
+        GithubCorner,
+    },
+    name: 'App'
+}
 </script>

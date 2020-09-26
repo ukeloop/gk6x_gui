@@ -112,23 +112,23 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <h2 class="text-lg font-medium text-gray-900" id="reset_keyconfig">Reset keyconfig</h2>
+                            <h2 class="text-lg font-medium text-gray-900" id="reset_keyconfig">
+                                Reset keyconfig
+                            </h2>
                             <p class="mt-1 max-w-xl text-base text-gray-700 lg:mt-2">
                                 Use the <code class="code bg-yellow-300 text-yellow-800">unmap</code> command to reset
-                                your
-                                keyboard to the default state.
+                                your keyboard to the default state.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="container mx-auto mt-16 px-2">
-                    <div class="mt-4 border-b border-t border-gray-400 border rounded-lg overflow-hidden" id="keyconfig">
-                        <div class="px-4 py-2 border-b border-gray-400 flex justify-between items-center bg-white sm:py-4 sm:px-6 sm:items-baseline">
+                    <div class="mt-4 border-b border-t border-gray-400 border rounded-lg overflow-hidden"
+                         id="keyconfig">
+                        <div
+                            class="px-4 py-2 border-b border-gray-400 flex justify-between items-center bg-white sm:py-4 sm:px-6 sm:items-baseline">
                             <h2 class="font-regular text-base md:text-lg leading-snug truncate">
-                                Keyconfig
-                                <span class="text-gray-600">
-                                    [{{ getKeyconfingFilename }}]
-                                </span>
+                                Keyconfig <span class="text-gray-600">[{{ getKeyconfingFilename }}]</span>
                             </h2>
                             <div class="flex items-center my-auto">
                                 <button type="button" class="ml-3 text-gray-400 hover:text-gray-500 focus:outline-none"
@@ -136,23 +136,24 @@
                                     <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
                                         <title>Copy</title>
                                         <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"></path>
-                                        <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z"></path>
+                                        <path
+                                            d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z"></path>
                                     </svg>
                                 </button>
                                 <button type="button" class="ml-3 text-gray-400 hover:text-gray-500 focus:outline-none"
                                         @click="downloadConfig">
                                     <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                                         <title>Download</title>
-                                        <path d="M11 14.59V3a1 1 0 0 1 2 0v11.59l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 1.4-1.42l3.3 3.3zM3 17a1 1 0 0 1 2 0v3h14v-3a1 1 0 0 1 2 0v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3z"/>
+                                        <path
+                                            d="M11 14.59V3a1 1 0 0 1 2 0v11.59l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 1.4-1.42l3.3 3.3zM3 17a1 1 0 0 1 2 0v3h14v-3a1 1 0 0 1 2 0v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3z"/>
                                     </svg>
                                 </button>
                             </div>
                         </div>
                         <textarea
-                                class="form-textarea block w-full focus:outline-indigo-300 border-none rounded-none text-sm bg-gray-800 text-gray-300"
-                                rows="12" placeholder="Your Keyconfig..." aria-label="keyconfig" ref="keyconfig"
-                                v-model="config">
-                        </textarea>
+                            class="form-textarea block w-full focus:outline-indigo-300 border-none rounded-none text-sm bg-gray-800 text-gray-300"
+                            rows="12" placeholder="Your Keyconfig..." aria-label="keyconfig" ref="keyconfig"
+                            v-model="config"></textarea>
                     </div>
                 </div>
             </div>
@@ -161,7 +162,9 @@
             <div class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-500 text-white shadow"
                  @click="downloadConfig">
                 <svg stroke="currentColor" fill="currentColor" viewBox="0 0 24 24" class="h-6 w-6">
-                    <path d="M11 14.59V3a1 1 0 0 1 2 0v11.59l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 1.4-1.42l3.3 3.3zM3 17a1 1 0 0 1 2 0v3h14v-3a1 1 0 0 1 2 0v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3z"></path>
+                    <title>Download</title>
+                    <path
+                        d="M11 14.59V3a1 1 0 0 1 2 0v11.59l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 1.4-1.42l3.3 3.3zM3 17a1 1 0 0 1 2 0v3h14v-3a1 1 0 0 1 2 0v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3z"></path>
                 </svg>
             </div>
         </div>
@@ -170,113 +173,113 @@
 </template>
 
 <script>
-    import modellist from "../data/device/modellist.json";
-    import keyboard from "../components/keyboard";
-    import {saveAs} from 'file-saver';
+import modellist from "../data/device/modellist.json";
+import keyboard from "../components/keyboard";
+import {saveAs} from 'file-saver';
 
-    export default {
-        components: {
-            keyboard,
+export default {
+    components: {
+        keyboard,
+    },
+    data: function () {
+        return {
+            modellist: modellist,
+            keyboard: this.getKeyboard(),
+            config: this.getConfig(),
+            layers: [
+                'Base',
+                'Layer1',
+                'Layer2',
+                'Layer3',
+                'FnLayer1',
+                'FnLayer2',
+                'FnLayer3',
+            ],
+            layer: 'Base',
+        }
+    },
+    destroyed() {
+        window.removeEventListener("beforeunload", this.beforeunload);
+    },
+    watch: {
+        keyboard(newKeyboard) {
+            localStorage.keyboard = newKeyboard.ModelID;
+        }
+    },
+    computed: {
+        getKeyconfingFilename: function () {
+            return this.keyboard.ModelID ? this.keyboard.ModelID + '.txt' : 'Not selected Keyboard';
         },
-        data: function () {
-            return {
-                modellist: modellist,
-                keyboard: this.getKeyboard(),
-                config: this.getConfig(),
-                layers: [
-                    'Base',
-                    'Layer1',
-                    'Layer2',
-                    'Layer3',
-                    'FnLayer1',
-                    'FnLayer2',
-                    'FnLayer3',
-                ],
-                layer: 'Base',
+    },
+    methods: {
+        getKeyboard: function () {
+            let modelID = this.$route.query.keyboard || localStorage.keyboard;
+
+            return modellist.filter((model) => {
+                return model.ModelID === modelID;
+            })[0] || modellist[0];
+        },
+        changedKeyconfig: function () {
+            this.config = this.getConfig();
+        },
+        getConfig: function () {
+            if (!this.$refs.keyboard) {
+                return null;
+            }
+            return this.$refs.keyboard.getConfig();
+        },
+        resetConfig: function () {
+            if (this.$refs.keyboard) {
+                this.$refs.keyboard.resetConfig();
+            }
+            this.resetSuccessed();
+        },
+        copyConfig: function (e) {
+            e.preventDefault();
+            this.$copyText(this.config).then((e) => {
+                this.copySuccessed(e);
+            }, (e) => {
+                this.copyErrored(e);
+            });
+        },
+        copySuccessed: function () {
+            this.$notify({
+                group: 'notification',
+                text: 'You just copied the keyconfig.'
+            });
+        },
+        copyErrored: function (e) {
+            console.error(e);
+            this.$notify({
+                group: 'notification',
+                type: 'error',
+                title: 'ERROR',
+                text: 'Failed to copy your keyconfig.'
+            });
+        },
+        resetSuccessed: function () {
+            this.$notify({
+                group: 'notification',
+                text: 'Reset the keyconfig.'
+            });
+        },
+        downloadConfig: function () {
+            try {
+                let blob = new Blob([this.config], {type: "text/plain;charset=utf-8"});
+                saveAs(blob, this.getKeyconfingFilename);
+            } catch (e) {
+                this.downloadErrored(e);
             }
         },
-        destroyed() {
-            window.removeEventListener("beforeunload", this.beforeunload);
+        downloadErrored: function (e) {
+            console.error(e);
+            this.$notify({
+                group: 'notification',
+                type: 'error',
+                title: 'ERROR',
+                text: 'Failed to save your keyconfig.'
+            });
         },
-        watch: {
-            keyboard(newKeyboard) {
-                localStorage.keyboard = newKeyboard.ModelID;
-            }
-        },
-        computed: {
-            getKeyconfingFilename: function () {
-                return this.keyboard.ModelID ? this.keyboard.ModelID + '.txt' : 'Not selected Keyboard';
-            },
-        },
-        methods: {
-            getKeyboard: function () {
-                let modelID = this.$route.query.keyboard || localStorage.keyboard;
-
-                return modellist.filter((model) => {
-                    return model.ModelID == modelID;
-                })[0] || modellist[0];
-            },
-            changedKeyconfig: function () {
-                this.config = this.getConfig();
-            },
-            getConfig: function () {
-                if (!this.$refs.keyboard) {
-                    return null;
-                }
-                return this.$refs.keyboard.getConfig();
-            },
-            resetConfig: function () {
-                if (this.$refs.keyboard) {
-                    this.$refs.keyboard.resetConfig();
-                }
-                this.resetSuccessed();
-            },
-            copyConfig: function (e) {
-                e.preventDefault();
-                this.$copyText(this.config).then((e) => {
-                    this.copySuccessed(e);
-                }, (e) => {
-                    this.copyErrored(e);
-                });
-            },
-            copySuccessed: function () {
-                this.$notify({
-                    group: 'notification',
-                    text: 'You just copied the keyconfig.'
-                });
-            },
-            copyErrored: function (e) {
-                console.error(e);
-                this.$notify({
-                    group: 'notification',
-                    type: 'error',
-                    title: 'ERROR',
-                    text: 'Failed to copy your keyconfig.'
-                });
-            },
-            resetSuccessed: function () {
-                this.$notify({
-                    group: 'notification',
-                    text: 'Reset the keyconfig.'
-                });
-            },
-            downloadConfig: function () {
-                try {
-                    let blob = new Blob([this.config], {type: "text/plain;charset=utf-8"});
-                    saveAs(blob, this.getKeyconfingFilename);
-                } catch (e) {
-                    this.downloadErrored(e);
-                }
-            },
-            downloadErrored: function (e) {
-                console.error(e);
-                this.$notify({
-                    group: 'notification',
-                    type: 'error',
-                    title: 'ERROR',
-                    text: 'Failed to save your keyconfig.'
-                });
-            },
-        },
-    }
+    },
+}
 </script>

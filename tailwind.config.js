@@ -8,12 +8,10 @@ module.exports = {
     plugins: [
         require('@tailwindcss/custom-forms'),
         function ({addUtilities, theme, config}) {
-
             let newUtilities = {};
             const boxShadowPrefix = '0 0 0 3px';
             const colors = theme('colors');
             Object.keys(colors).forEach(color => {
-
                 const colorData = colors[color];
                 if (typeof colorData === 'string') {
                     newUtilities[`.outline-${color}`] = {
